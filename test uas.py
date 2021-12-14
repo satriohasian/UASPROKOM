@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 import pandas as pd
+import streamlit as st
 
 #load file yang diperlukan
 file_json = open ('D:\\Test py\\UAS\\kode_negara_lengkap.json')

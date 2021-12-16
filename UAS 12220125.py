@@ -182,15 +182,3 @@ data_frame_total_nol_kumulatif = pd.DataFrame(data_total_nol_kumulatif).set_inde
 
 st.subheader('Negara dengan Produksi 0 pada Keseluruhan Tahun')
 st.write (data_frame_total_nol_kumulatif)
-
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')
-st.sidebar.caption ('')

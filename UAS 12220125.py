@@ -8,11 +8,11 @@ import pandas as pd
 import streamlit as st
 
 #load file yang diperlukan
-file_json = open('D:\\Test py\\UAS\\kode_negara_lengkap.json')
+file_json = open('kode_negara_lengkap.json')
 file_json = file_json.read()
 negara = json.loads(file_json)
 negara_dict = pd.DataFrame.from_dict(negara)
-df = pd.read_csv('D:\\Test py\\UAS\\produksi_minyak_mentah.csv')
+df = pd.read_csv('produksi_minyak_mentah.csv')
 df = df.set_index('kode_negara')
 df = df.drop(["WLD", "G20", "OECD", "OEU", "EU28"])
 df = df.reset_index()
